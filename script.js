@@ -4,6 +4,12 @@ window.addEventListener("scroll", function() {
     header.classList.toggle("sticky", window.scrollY > 0);
 });
 
+setTimeout(function() {
+    document.querySelectorAll(".test").forEach((val) => {
+        val.classList.remove("test");
+    })
+  }, 6000);
+
 
 /* gsap */
 gsap.fromTo(

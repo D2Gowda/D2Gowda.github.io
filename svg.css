@@ -1,9 +1,17 @@
 /* SVG*/
+.test {
+  visibility: hidden;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .loading-page {
     position: absolute;
     top: 0;
     left: 0;
-    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    background-color :#101010;
     height: 100%;
     width: 100%;
     display: flex;
